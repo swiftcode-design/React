@@ -1,0 +1,138 @@
+.App{
+  min-height: 650px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.component-entering{
+  position: relative;
+  animation: entering 0.7s linear 0s 1;
+}
+
+@keyframes entering{
+  0%{opacity: 0}
+  50%{opacity: 0}
+  100%{opacity: 1}
+}
+
+.login-input{
+  border: none;
+  border-bottom: solid 2px white;
+  height: 40px;
+  background: none;
+  width: 550px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
+}
+.login-input:focus{
+  outline: none;
+}
+/*//dash*/
+.Dash{
+  /*background: blue;*/
+  height: 100%;
+  width: 100%;
+}
+.dash-main{
+  /*background: green;*/
+}
+.dash-time{
+  /*background: pink;*/
+  height: 200px;
+}
+.dash-name{
+  /*background: blue;*/
+  height: 160px;
+  /*padding-bottom: 80px;*/
+}
+.dash-focus{
+  /*background: red;*/
+  height: 150px;
+}
+.dash-quote{
+  height: 150px;
+}
+.dash-quote-ul{
+  padding: 0 10px 10px 10px;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.dash-quote-div{
+  width: 500px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  bottom: -30px;
+  transition: 0.5s;
+}
+.dash-quote-div:hover{
+  bottom: 0px;
+}
+.remove-icon-wrapper{
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 8px 10px;
+  transition: 0.1s;
+}
+.remove-icon-wrapper:hover{
+  padding: 7px 9px;
+  border: solid 1px white;
+}
+.dash-weather{
+  padding: 15px;
+  width: 80px;
+  text-align: right;
+}
+.dash-links{
+  padding: 15px;
+}
+.dash-links-anchor{
+  font-size: 17px;
+  padding-right: 15px;
+}
+.dash-links-search{
+  border-bottom: solid 2px rgba(255,255,255, 0);
+  transition: 0.2;
+}
+.dash-links-search:hover{
+  border-bottom: solid 2px rgba(255,255,255, 1);
+}
+.dash-settings{
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 50px;
+  left: 5px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.settings-entering{
+  left: 5px;
+  opacity: 1;
+}
+
+.settings-controller{
+  width: 20%;
+  height: 100%;
+  border-right: solid 1px rgba(255, 255, 255, 0.2);
+}
+.settings-controller ul{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.settings-display{
+  width:80%;
+  height: 100%;
+}
+.settings-display img{
+  height: 70px;
+  width: 100px;
+  margin: 10px;
+}
