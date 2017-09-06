@@ -28,9 +28,7 @@ export function fetchWeather(){
       const previousTime = localStorage.getItem('m-previousTime') || Number(moment().format('hh:mm').split(':')[1])+10;
       const time = moment().format('hh:mm').split(':')[1];
       const timeDifference = (time - previousTime);
-      
-      if(timeDifference >= 10 || timeDifference <= -10){
-        console.log('opps')
+      if(timeDifference >= 10 || timeDifference <= -10 || !weatherData){
         axios.get(`http://api.wunderground.com/api/6f0701085de5295d/conditions/q/${ipRes.data.region_code}/${ipRes.data.city}.json`)
         .then(weatherRes => {
           const weather = {

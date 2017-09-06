@@ -1,6 +1,5 @@
 import React from 'react';
 function Login(props){
-  // console.log(props)
     return(
       <div className="component-entering center column">
           <h2>Hello what's your name?</h2>

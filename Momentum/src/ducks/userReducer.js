@@ -57,7 +57,6 @@ export function checkUser(){
 
 export function handleSubmit(e){
   e.preventDefault();
-  console.log(e.target.name)
   return{
     type: 'HANDLE_SUBMIT_' + e.target.name.toUpperCase(),
     payload: 'none'

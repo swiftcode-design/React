@@ -1,8 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 function Dash(props){
-  console.log(props)
-  var date = new Date()
   const quoteNum = props.state.api.quotesNum
   return(
     <div className="component-entering vertical-space-between Dash">
@@ -73,7 +71,6 @@ function Dash(props){
 }
 export default Dash;
 function Settings(props){
-  console.log(props)
   return(
     <div className={props.state.settings.show ? 'dash-settings center settings-entering' : 'dash-settings center disabled'} >
       <div className="settings-controller">
