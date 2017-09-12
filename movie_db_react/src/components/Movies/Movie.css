@@ -1,0 +1,18 @@
+.sub-routes-wrapper{
+  background: #F4F4F4;
+}
+.movies-sub-nav{
+  height: 80px;
+}
+.new-releases{
+  width: 100%;
+}
+.movie-card{
+  width: 250px;
+  margin: 30px 10px;
+}
+/*.movie-card-img{
+  height: 350px;
+  width: 250px;
+  padding: 10px;
+}*/

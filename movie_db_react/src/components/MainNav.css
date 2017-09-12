@@ -1,0 +1,20 @@
+.main-nav{
+  border-bottom: solid 1px #01d277;
+}
+.main-nav-div{
+  width: 50%;
+}
+.nav-logo{
+  height: 80px;
+  width: 80px;
+}
+.main-nav-links{
+  height: 76px;
+  width: 100px;
+  margin: 0 10px;
+  color: #01d277;
+}
+.main-nav-links-active{
+  border-bottom: solid 2px #01d277;
+  border-top: solid 2px #01d277;
+}
