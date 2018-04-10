@@ -1,2 +1,1 @@
-# React
-"# VAS" 
+"# gatsby-starter-netlify-cms" 
